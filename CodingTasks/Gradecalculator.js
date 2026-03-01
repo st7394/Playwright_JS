@@ -15,5 +15,9 @@ function gradeCalculator(marks) {
         console.log("Grade F");
     }
 }
-let marks = 76;
+let marks = 77;
+if (typeof marks !== "number") {
+    console.log("Please enter a valid number");
+    return;
+}
 gradeCalculator(marks);
