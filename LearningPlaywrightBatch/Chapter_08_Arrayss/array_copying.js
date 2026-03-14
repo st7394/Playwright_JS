@@ -1,0 +1,10 @@
+let a = [1,2,3];
+let b = [...a];
+console.log(b);
+b.push(8);
+console.log(Array.from(a));
+let copy2 = Array.from(b);
+console.log(copy2);
+copy2.push(9);
+console.log(copy2);
+console.log(b);
