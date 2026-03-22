@@ -3,7 +3,7 @@ function makecounter(start) {
     return {
         increment() {
             count++;
-        }
+        },
         decrement() {
             count--;
         },
