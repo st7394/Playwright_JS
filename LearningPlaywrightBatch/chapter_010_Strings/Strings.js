@@ -7,3 +7,9 @@ let name = "Alice";
 let msg = 'Hello , ${name}! 2+2= ${2+2}';
 console.log(msg);
 
+let report = `
+   Test login   functionality
+   Test Cart functionality
+   Test Checkout functionality
+`;
+console.log(report);
