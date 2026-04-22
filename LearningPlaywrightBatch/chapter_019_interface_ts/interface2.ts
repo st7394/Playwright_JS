@@ -20,5 +20,5 @@ let response: ApiResponse = {
 function getApiResponse(response: ApiResponse): ApiResponse {
     return response;
 }
-response.statuscode = 404;
+// response.statuscode = 404;
 console.log(getApiResponse(response));

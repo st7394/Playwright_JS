@@ -11,5 +11,5 @@ class Teststorage<T> {
 let storage = new Teststorage<string>();
 storage.add("121");
 storage.add("Jane");
-storage.add(1211);
+storage.add("1211");
 console.log(storage.get(0));

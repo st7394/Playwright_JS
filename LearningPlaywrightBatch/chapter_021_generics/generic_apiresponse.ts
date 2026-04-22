@@ -4,7 +4,7 @@ function wrapresponse<T>(statusCode: number, data: T): { statusCode: number, dat
 
 
 
-let response1 = wrapresponse<String>(400, {
+let response1 = wrapresponse<any>(400, {
     name: "John",
     age: 30,
     email: "ishtripathi7@gmail.com"
